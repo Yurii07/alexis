@@ -1,0 +1,30 @@
+{
+  "name": "alexis",
+  "version": "1.0.0",
+  "description": "alexis",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "bootstrap": "^4.2.1",
+    "gulp": "github:gulpjs/gulp#v4.0.0-alpha.3",
+    "gulp-sourcemaps": "^2.6.4",
+    "normalize.css": "^8.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "gulp watch",
+    "build": "gulp build"
+  },
+  "keywords": [],
+  "author": "Adamenko Yurii",
+  "license": "ISC"
+}
